@@ -1,0 +1,122 @@
+.request-now {
+  background-color: black;
+  color: white;
+  width: 120px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+}
+
+.request-now:hover {
+  opacity: 0.85;
+}
+
+.add-to-cart {
+  background-color: rgb(255, 216, 20);
+  border: none;
+  height: 36px;
+  width: 150px;
+  border-radius: 32px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background-color 0.15s;
+}
+
+.add-to-cart:hover {
+  background-color: rgb(240, 204, 23);
+}
+
+.sign-up {
+  background-color: rgb(46, 164, 79);
+  border: none;
+  border-radius: 4px;
+  height: 40px;
+  width: 100px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+}
+
+.sign-up:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.get-started {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  height: 40px;
+  width: 120px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.get-started:hover {
+  background-color: rgb(79, 48, 124);
+}
+
+.download {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  height: 40px;
+  width: 120px;
+  border: 1px solid rgb(108, 117, 125);
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.download:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+
+.apply-on-company-website {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border: none;
+  height: 40px;
+  width: 220px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background-color 0.15s;
+}
+
+.apply-on-company-website:hover {
+  background-color: rgb(1, 53, 131);
+}
+
+.save {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  height: 40px;
+  width: 80px;
+  border: 1px solid rgb(10, 102, 194);
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.15s, border-width 0.15s;
+}
+
+.save:hover {
+  background-color: rgb(211, 226, 240);
+  border-width: 3px;
+}
