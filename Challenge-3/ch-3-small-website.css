@@ -1,0 +1,66 @@
+a {
+  color: rgb(0, 113, 113);
+  transition: color 0.15s;
+}
+
+a:hover {
+  color: rgb(207, 129, 12);
+}
+
+p.heading {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+p.stock {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+  font-size: 22px;
+}
+
+p.delivery {
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.add-to-cart {
+  background-color: rgb(255, 216, 20);
+  border: none;
+  height: 36px;
+  width: 130px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.add-to-cart:hover {
+  background-color: rgb(236, 199, 13);
+}
+
+.add-to-cart:active {
+  opacity: 0.7;
+}
+
+.buy-now {
+  background-color: rgb(255, 164, 28);
+  border: none;
+  height: 36px;
+  width: 130px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 18px;
+  transition: background-color 0.15s;
+}
+
+.buy-now:hover {
+  background-color: rgb(236, 97, 4);
+}
+
+.buy-now:active {
+  opacity: 0.7;
+}
