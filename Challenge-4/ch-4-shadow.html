@@ -3,25 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Stretch</title>
+    <title>Shadow</title>
     <style>
-      button.stretch {
-        padding: 8px 16px;
+      button.shadow {
         background-color: green;
         border: none;
         color: white;
         font-size: 18px;
         font-weight: normal;
+        padding: 8px 16px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
         cursor: pointer;
-        transition: padding 1s;
       }
 
-      button.stretch:hover {
-        padding: 18px 36px;
+      button.shadow:active {
+        margin-top: 3px;
+        margin-left: 3px;
+        box-shadow: none;
       }
     </style>
   </head>
   <body>
-    <button class="stretch">Stretch</button>
+    <button class="shadow">Shadow</button>
   </body>
 </html>
