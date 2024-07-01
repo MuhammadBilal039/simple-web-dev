@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drawing the Layout</title>
+    <style>
+      p {
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .main {
+        width: 200px;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.7);
+        display: inline-block;
+        margin-right: 10px;
+      }
+      .cat-picture {
+        width: 200px;
+      }
+
+      .cat-img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .oliver {
+        margin-left: 10px;
+        margin-bottom: 4px;
+        font-size: 18px;
+        font-weight: bold;
+        display: block;
+      }
+
+      .dog-img {
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 10px;
+        margin-bottom: 8px;
+      }
+
+      .mutual-friend {
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 8px;
+      }
+
+      .add-friend {
+        margin-left: 10px;
+        margin-bottom: 10px;
+        background-color: rgb(24, 119, 242);
+        color: white;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 4px;
+        font-size: 15px;
+        font-family: Arial;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div>
+        <img src="cat.jpg" alt="" class="cat-img" />
+      </div>
+      <div>
+        <p class="oliver">Oliver</p>
+        <img class="dog-img" src="dog2.jpg" alt="" />
+        <p class="mutual-friend">2 mutual friends</p>
+        <button class="add-friend">Add Friend</button>
+      </div>
+    </div>
+    <div class="main">
+      <div>
+        <img src="cat2.jpg" alt="" class="cat-img" />
+      </div>
+      <div>
+        <p class="oliver">Mini</p>
+        <img class="dog-img" src="dog2.jpg" alt="" />
+        <p class="mutual-friend">3 mutual friends</p>
+        <button class="add-friend">Add Friend</button>
+      </div>
+    </div>
+    <div class="main">
+      <div>
+        <img src="dog.jpg" alt="" class="cat-img" />
+      </div>
+      <div>
+        <p class="oliver">Mini</p>
+        <img class="dog-img" src="dog2.jpg" alt="" />
+        <p class="mutual-friend">3 mutual friends</p>
+        <button class="add-friend">Add Friend</button>
+      </div>
+    </div>
+  </body>
+</html>

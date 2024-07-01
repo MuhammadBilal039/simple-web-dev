@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat Layout Design</title>
+    <style>
+      p {
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .main {
+        width: 500px;
+        padding: 20px;
+      }
+      .cat-img {
+        width: 80px;
+        height: 80px;
+        border-radius: 80px;
+      }
 
+      .cat-profile {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 10px;
+      }
+
+      .img-description {
+        display: inline-block;
+        vertical-align: top;
+      }
+
+      .oliver {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 5px;
+        margin-bottom: 7px;
+      }
+
+      .cat {
+        color: rgb(96, 96, 96);
+        margin-bottom: 7px;
+      }
+
+      .popular {
+        color: rgb(96, 96, 96);
+      }
+
+      .button {
+        display: inline-block;
+      }
+
+      .follow {
+        background-color: rgb(26, 117, 255);
+        color: white;
+        margin-left: 100px;
+        margin-top: 20px;
+        border: none;
+        padding: 8px 16px;
+        font-size: 18px;
+        border-radius: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="cat-profile">
+        <img src="cat.jpg" alt="" class="cat-img" />
+      </div>
+      <div class="img-description">
+        <div class="first">
+          <p class="oliver">oliver</p>
+        </div>
+        <div class="second">
+          <p class="cat">the cat</p>
+        </div>
+        <div class="third">
+          <p class="popular">Popular</p>
+        </div>
+      </div>
+      <div class="button">
+        <button class="follow">Follow</button>
+      </div>
+    </div>
+  </body>
+</html>
