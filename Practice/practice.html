@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Site</title>
+    <style>
+      button {
+        padding: 10px 5px;
+        margin-right: 10px;
+      }
+      a {
+        margin-right: 10px;
+        color: blueviolet;
+      }
+      .stretch {
+        background-color: green;
+        color: white;
+        border: none;
+        padding: 8px 15px;
+        font-size: 15px;
+        font-weight: normal;
+        cursor: pointer;
+        transition: padding 1s;
+      }
+      .stretch:hover {
+        padding: 18px 36px;
+        font-size: 18px;
+        font-weight: normal;
+      }
+      .shadow {
+        background-color: green;
+        color: white;
+        border: none;
+        padding: 8px 15px;
+        font-size: 15px;
+        font-weight: normal;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+      }
+      .shadow:active {
+        margin-top: 3px;
+        margin-left: 3px;
+        box-shadow: none;
+      }
 
+      button.one,
+      .two,
+      .three {
+        background-color: green;
+        border: none;
+        color: white;
+        padding: 8px 15px;
+        font-size: 15px;
+        font-weight: normal;
+        margin-left: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+        transition: padding 0.15s, margin 0.15s;
+      }
+      button.one:hover,
+      .two:hover,
+      .three:hover {
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-left: 0;
+        margin-right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <button>Back</button>
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <button>Next</button>
+    <br />
+    <br />
+    <button class="stretch">Stretch</button><br /><br />
+    <button class="shadow">Shadow</button><br /><br />
+    <button class="one">One</button>
+    <button class="two">Two</button>
+    <button class="three">Three</button>
+  </body>
+</html>
