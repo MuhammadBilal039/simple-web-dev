@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Practice</title>
+    <style>
+      .main-1 {
+        display: grid;
+        grid-template-columns: 100px 100px;
+        margin-bottom: 30px;
+      }
+      .main-2 {
+        display: grid;
+        grid-template-columns: 100px 100px;
+        margin-bottom: 30px;
+      }
+      .main-3 {
+        display: grid;
+        grid-template-columns: 100px 1fr 1fr;
+        margin-bottom: 30px;
+      }
+      .main-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+        margin-bottom: 30px;
+        height: 200px;
+      }
 
+      .one {
+        background-color: lightblue;
+      }
+
+      .two {
+        background-color: lightpink;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-1">
+      <div class="one">div 1</div>
+      <div class="two">
+        div 2
+        <p>text</p>
+      </div>
+    </div>
+    <div class="main-2">
+      <div class="one">div 1</div>
+      <div class="two">
+        div 2
+        <p>text</p>
+      </div>
+    </div>
+    <div class="main-3">
+      <div class="one">div 1</div>
+      <div class="two">div 2</div>
+      <div class="one">div3</div>
+    </div>
+    <div class="main-4">
+      <div class="one">1fr</div>
+      <div class="two">1fr</div>
+      <div class="one">1fr</div>
+      <div class="two">1fr</div>
+      <div class="one">1fr</div>
+      <div class="two">1fr</div>
+    </div>
+  </body>
+</html>
